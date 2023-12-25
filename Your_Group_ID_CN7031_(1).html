@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>87e29aaa80e34e64be65e806f0ab0265</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="Lx9-Fre4FMda">
+<h1 id="big-data-analytics-cn7031-crwk-2023-24"><strong>Big Data
+Analytics [CN7031] CRWK 2023-24</strong></h1>
+<h1 id="group-id-your-group-id"><strong>Group ID: [Your Group
+ID]</strong></h1>
+<ol>
+<li>Student 1: Name and ID</li>
+<li>Student 2: Name and ID</li>
+<li>Student 3: Name and ID</li>
+<li>Student 4: Name and ID</li>
+</ol>
+<hr />
+<p>If you want to add comments on your group work, please write it here
+for us:</p>
+</div>
+<section id="initiate-and-configure-spark" class="cell markdown"
+id="GdMZR-9QTwG3">
+<h1><strong>Initiate and Configure Spark</strong></h1>
+<hr />
+</section>
+<div class="cell code" data-execution_count="34"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="2wbXV70D6xbl" data-outputId="84065020-4be3-4cf1-99dc-43a079b70c19">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip3 install pyspark</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: pyspark in /usr/local/lib/python3.10/dist-packages (3.5.0)
+Requirement already satisfied: py4j==0.10.9.7 in /usr/local/lib/python3.10/dist-packages (from pyspark) (0.10.9.7)
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="_z0p88Xtw_3-">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># linking with Spark</span></span></code></pre></div>
+</div>
+<section id="load-unstructured-data-and-convert-it-to-spark-df-10-marks"
+class="cell markdown" id="6P2CZVl6TOQX">
+<h1><strong>Load Unstructured Data and Convert it to Spark DF [10
+marks]</strong></h1>
+<hr />
+</section>
+<div class="cell code" data-execution_count="35" id="NbV-mUvKRWSr">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> split</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="36" id="efdQkCg_soaq">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the unstructrued data: (1) drag and drop data here or (2) use Google Drive</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder.appName(<span class="st">&quot;WebLogAnalysis&quot;</span>).getOrCreate()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37" id="x4iCwJgER14D">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>log_data_path <span class="op">=</span> <span class="st">&quot;/content/web.log&quot;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>raw_data <span class="op">=</span> spark.read.text(log_data_path)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="38" id="U-zSlLkNtCCw">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert the unstructrued data to Spark DF</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming common log format: IP_address - - [timestamp] &quot;request&quot; status_code bytes_sent</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>split_data <span class="op">=</span> split(raw_data[<span class="st">&#39;value&#39;</span>], <span class="st">&#39; &#39;</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create columns for different components of the log entry</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>raw_data <span class="op">=</span> raw_data.withColumn(<span class="st">&#39;ip_address&#39;</span>, split_data.getItem(<span class="dv">0</span>))</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>raw_data <span class="op">=</span> raw_data.withColumn(<span class="st">&#39;timestamp&#39;</span>, split_data.getItem(<span class="dv">3</span>))</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>raw_data <span class="op">=</span> raw_data.withColumn(<span class="st">&#39;request&#39;</span>, split_data.getItem(<span class="dv">5</span>))</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>raw_data <span class="op">=</span> raw_data.withColumn(<span class="st">&#39;status_code&#39;</span>, split_data.getItem(<span class="dv">6</span>))</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>raw_data <span class="op">=</span> raw_data.withColumn(<span class="st">&#39;bytes_sent&#39;</span>, split_data.getItem(<span class="dv">7</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39" id="lSH4vytgSCMM">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>web_log_df <span class="op">=</span> raw_data.select(<span class="st">&#39;ip_address&#39;</span>, <span class="st">&#39;timestamp&#39;</span>, <span class="st">&#39;request&#39;</span>, <span class="st">&#39;status_code&#39;</span>, <span class="st">&#39;bytes_sent&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Zmeo8o7DSFH0" data-outputId="6b332431-8dab-47cd-dad0-c57595374955">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>web_log_df.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+---------------+--------------------+--------------------+-----------+----------+
+|     ip_address|           timestamp|             request|status_code|bytes_sent|
++---------------+--------------------+--------------------+-----------+----------+
+| 88.211.105.115|[04/Mar/2022:14:1...|  /history/missions/|  HTTP/2.0&quot;|       414|
+|   144.6.49.142|[02/Sep/2022:15:1...| /security/firewall/| HTTPS/1.0&quot;|       203|
+|  231.70.64.145|[19/Jul/2022:01:3...|/web-development/...|  HTTP/1.0&quot;|       201|
+| 219.42.234.172|[08/Feb/2022:11:3...|/networking/techn...|  HTTP/1.0&quot;|       415|
+| 183.173.185.94|[29/Aug/2023:03:0...| /security/firewall/|  HTTP/2.0&quot;|       205|
+|   164.12.8.113|[22/May/2023:09:4...|/web-development/...|  HTTP/1.0&quot;|       200|
+|   110.98.7.240|[22/Jan/2023:09:5...|    /history/apollo/|  HTTP/2.0&quot;|       204|
+| 27.182.196.243|[28/Mar/2022:05:3...| /history/apollo-11/| HTTPS/1.0&quot;|       414|
+|  123.31.25.147|[25/Feb/2023:12:0...|/data-analysis/mi...|  HTTP/1.0&quot;|       204|
+|  220.182.78.75|[22/Dec/2022:12:5...|    /history/launch/|  HTTP/2.0&quot;|       200|
+| 206.186.128.82|[13/Oct/2023:07:2...|/security/apollo-11/|  HTTP/1.0&quot;|       404|
+| 143.238.50.180|[26/Oct/2023:17:1...|/data-analysis/mi...| HTTPS/1.0&quot;|       307|
+|   12.33.251.59|[15/Aug/2022:15:5...|/web-development/...|  HTTP/2.0&quot;|       203|
+| 39.107.109.242|[08/Oct/2023:07:0...|      /shuttle/data/| HTTPS/1.0&quot;|       201|
+| 250.231.144.68|[22/Jun/2022:19:1...|/security/deep-le...| HTTPS/1.0&quot;|       500|
+| 103.105.160.60|[24/Oct/2023:01:5...|/shuttle/cybersec...|  HTTP/1.0&quot;|       416|
+|246.167.148.159|[14/Oct/2022:11:4...|/security/deep-le...|  HTTP/2.0&quot;|       500|
+| 185.221.50.185|[25/Jan/2023:02:4...|/images/frontend-...|  HTTP/2.0&quot;|       308|
+| 144.143.171.58|[30/Aug/2022:08:0...|/software/apollo-11/|  HTTP/2.0&quot;|       304|
+|  131.119.14.93|[26/Jun/2022:16:4...| /networking/launch/|  HTTP/1.0&quot;|       205|
++---------------+--------------------+--------------------+-----------+----------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="U5gEKBFmSIk6">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>spark.stop()</span></code></pre></div>
+</div>
+<section id="task-1-spark-sql-30-marks" class="cell markdown"
+id="-RjT7_UHAqic">
+<h1><strong>Task 1: Spark SQL [30 marks]</strong></h1>
+<hr />
+</section>
+<div class="cell code" data-execution_count="41" id="2y9FutbE-6fH">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>web_log_df.createOrReplaceTempView(<span class="st">&quot;web_log_table&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42" id="7fCFTcOQBLD2">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 1 name and ID</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 1: Count the total number of log entries</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>query1 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT COUNT(*) AS total_entries FROM web_log_table&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="44" id="px6ndUu-SaO1">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 1 name and ID</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 2: Find the unique IP addresses in the log</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>query2 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT DISTINCT ip_address FROM web_log_table&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="43" id="G4OQ9MvKBAUQ">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 2 name and ID</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 3: Count the number of requests for each status code</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>query3 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT status_code, COUNT(*) AS count FROM web_log_table GROUP BY status_code&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="45" id="c7bOzYDvSfMo">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 2 name and ID</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 4: Find the top 10 most requested URLs</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>query4 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT request, COUNT(*) AS request_count FROM web_log_table GROUP BY request ORDER BY request_count DESC LIMIT 10&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="46" id="Vkh4cLhuBEly">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 3 name and ID</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 5: Identify the busiest hours based on the number of requests</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>query5 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT SUBSTRING_INDEX(timestamp, &#39;:&#39;, 1) AS hour, COUNT(*) AS request_count FROM web_log_table GROUP BY hour ORDER BY request_count DESC LIMIT 5&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="47" id="WQM_0VVmSjzK">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 3 name and ID</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 6: Calculate the average bytes sent per request</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>query6 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT AVG(bytes_sent) AS avg_bytes_sent FROM web_log_table&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="48" id="0Rm5BZNdBIbC">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 4 name and ID</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 7: Find the requests with a status code of 404 (Not Found)</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>query7 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT * FROM web_log_table WHERE status_code = &#39;404&#39;&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="49" id="uojM8-mJSnyg">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 4 name and ID</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 8: Identify the IP addresses with the highest number of requests</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>query8 <span class="op">=</span> spark.sql(<span class="st">&quot;SELECT ip_address, COUNT(*) AS request_count FROM web_log_table GROUP BY ip_address ORDER BY request_count DESC LIMIT 5&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="50"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="KhgJOwaOVkMd" data-outputId="f9893e4c-98a8-4189-b9b7-9a190531c871">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the results of the queries</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>query1.show()</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>query2.show()</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>query3.show()</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>query4.show()</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>query5.show()</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>query6.show()</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>query7.show()</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>query8.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+-------------+
+|total_entries|
++-------------+
+|       502788|
++-------------+
+
++---------------+
+|     ip_address|
++---------------+
+|230.145.149.229|
+| 222.97.216.211|
+| 56.252.244.161|
+|  74.118.29.164|
+| 223.19.252.140|
+|  185.89.79.197|
+|101.251.172.143|
+|  120.127.56.14|
+| 11.218.194.190|
+| 229.251.98.142|
+|     40.90.7.31|
+|    29.78.31.21|
+|  16.115.44.122|
+|    8.36.91.198|
+| 206.125.95.176|
+| 91.188.228.254|
+|227.121.136.126|
+|209.243.134.154|
+|   3.207.247.51|
+|  10.108.187.20|
++---------------+
+only showing top 20 rows
+
++-----------+------+
+|status_code| count|
++-----------+------+
+|  HTTP/1.0&quot;|167668|
+| HTTPS/1.0&quot;|167580|
+|  HTTP/2.0&quot;|167539|
+|       NULL|     1|
++-----------+------+
+
++--------------------+-------------+
+|             request|request_count|
++--------------------+-------------+
+|/data-analysis/ap...|         4394|
+|/web-development/...|         4327|
+|/software/technol...|         4310|
+|/cloud-computing/...|         4289|
+|/web-development/...|         4287|
+|/web-development/...|         4273|
+|/web-development/...|         4265|
+|/data-analysis/aw...|         4264|
+|/security/technol...|         4262|
+|/machine-learning...|         4258|
++--------------------+-------------+
+
++------------+-------------+
+|        hour|request_count|
++------------+-------------+
+|[25/Jun/2022|          814|
+|[03/Jul/2023|          812|
+|[07/Feb/2023|          804|
+|[17/May/2022|          802|
+|[01/Sep/2023|          801|
++------------+-------------+
+
++-----------------+
+|   avg_bytes_sent|
++-----------------+
+|305.8273165376193|
++-----------------+
+
++----------+---------+-------+-----------+----------+
+|ip_address|timestamp|request|status_code|bytes_sent|
++----------+---------+-------+-----------+----------+
++----------+---------+-------+-----------+----------+
+
++---------------+-------------+
+|     ip_address|request_count|
++---------------+-------------+
+|218.183.191.251|            2|
+|  206.23.52.188|            2|
+|  52.56.247.227|            2|
+| 237.252.14.177|            2|
+|   21.5.208.148|            2|
++---------------+-------------+
+
+</code></pre>
+</div>
+</div>
+<section id="task-2---spark-rdd-50-marks" class="cell markdown"
+id="dcJhGbI2BKpx">
+<h1><strong>Task 2 - Spark RDD [50 marks]</strong></h1>
+<hr />
+</section>
+<div class="cell code" data-execution_count="59" id="TRS3BKZWS3Tt">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark <span class="im">import</span> SparkContext</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming you have a SparkSession named &#39;spark&#39;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>sc <span class="op">=</span> SparkContext.getOrCreate()</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace &#39;your_file_path&#39; with the actual path to your log file</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>log_data_path <span class="op">=</span> <span class="st">&quot;/content/web.log&quot;</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the raw log data into an RDD</span></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>web_log_rdd <span class="op">=</span> sc.textFile(log_data_path)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Now you can perform RDD transformations on &#39;raw_data_rdd&#39;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="60" id="V3eiN9geBQRf">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 1 name and ID</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming web_log_rdd has already been created</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 1: Count the total number of log entries</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>query1 <span class="op">=</span> web_log_rdd.count()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="61" id="FQ_-hgdeiMle">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 1 name and ID</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Query 2: Find the unique IP addresses in the log</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>query2 <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">0</span>]).distinct()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="62" id="2JGQHXYliMK5">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 1 name and ID</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 3 and result using RDD operators:</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>query3 <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: (line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">6</span>], <span class="dv">1</span>)).reduceByKey(<span class="kw">lambda</span> x, y: x <span class="op">+</span> y)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="63" id="A5mwMvIsBQlX">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 2 name and ID</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 1 and result using RDD operators:</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>query4_rdd <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: (line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">5</span>], <span class="dv">1</span>)).reduceByKey(<span class="kw">lambda</span> x, y: x <span class="op">+</span> y)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="64" id="ElWikZNGBQti">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 2 name and ID</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 2 and result using RDD operators:</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>query5 <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: (line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">3</span>].split(<span class="st">&#39;:&#39;</span>)[<span class="dv">1</span>], <span class="dv">1</span>)).reduceByKey(<span class="kw">lambda</span> x, y: x <span class="op">+</span> y).sortBy(<span class="kw">lambda</span> x: x[<span class="dv">1</span>], <span class="va">False</span>).take(<span class="dv">5</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="65" id="dKsR4pkJBRaB">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 2 name and ID</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 3 and result using RDD operators:</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>query6_rdd <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: <span class="bu">int</span>(line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">7</span>]))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="66" id="pltbpQ2iiVj0">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 3 name and ID</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 1 and result using RDD operators:</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>query7 <span class="op">=</span> web_log_rdd.<span class="bu">filter</span>(<span class="kw">lambda</span> line: line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">6</span>] <span class="op">==</span> <span class="st">&#39;404&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="67" id="hBqDFxLHiVqT">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 3 name and ID</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 2 and result using RDD operators:</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>query8 <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: (line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">0</span>], <span class="dv">1</span>)).reduceByKey(<span class="kw">lambda</span> x, y: x <span class="op">+</span> y).sortBy(<span class="kw">lambda</span> x: x[<span class="dv">1</span>], <span class="va">False</span>).take(<span class="dv">5</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="68" id="nefE3dztiWmR">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 3 name and ID</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 3 and result using RDD operators:</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>query9 <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: (line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">3</span>].split(<span class="st">&#39;:&#39;</span>)[<span class="dv">1</span>], <span class="dv">1</span>)).reduceByKey(<span class="kw">lambda</span> x, y: x <span class="op">+</span> y)</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" id="8oWNBwLQZbJl">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="70" id="FM_3Ih8miXvO">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Student 4 name and ID</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="co"># analysis 2 and result using RDD operators:</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>query10 <span class="op">=</span> web_log_rdd.<span class="bu">map</span>(<span class="kw">lambda</span> line: (line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">6</span>], <span class="bu">int</span>(line.split(<span class="st">&#39; &#39;</span>)[<span class="dv">7</span>]))).combineByKey(</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">lambda</span> value: (value, <span class="dv">1</span>),</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">lambda</span> x, value: (x[<span class="dv">0</span>] <span class="op">+</span> value, x[<span class="dv">1</span>] <span class="op">+</span> <span class="dv">1</span>),</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">lambda</span> x, y: (x[<span class="dv">0</span>] <span class="op">+</span> y[<span class="dv">0</span>], x[<span class="dv">1</span>] <span class="op">+</span> y[<span class="dv">1</span>])</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>).<span class="bu">map</span>(<span class="kw">lambda</span> x: (x[<span class="dv">0</span>], x[<span class="dv">1</span>][<span class="dv">0</span>] <span class="op">/</span> x[<span class="dv">1</span>][<span class="dv">1</span>]))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="71"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="N9l-k5--ZfJ9" data-outputId="81e91ba7-9f1a-411a-f141-091166d129a9">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the results of the queries</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 1:&quot;</span>, query1)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 2:&quot;</span>, query2.collect())</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 4:&quot;</span>, query4)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 5:&quot;</span>, query5)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 6:&quot;</span>, query6)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 7:&quot;</span>, query7)</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 8:&quot;</span>, query8)</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 9:&quot;</span>, query9.collect())</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Query 10:&quot;</span>, query10)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Query 1: 502788
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>IOPub data rate exceeded.
+The notebook server will temporarily stop sending output
+to the client in order to avoid crashing it.
+To change this limit, set the config variable
+`--NotebookApp.iopub_data_rate_limit`.
+
+Current values:
+NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+NotebookApp.rate_limit_window=3.0 (secs)
+
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Query 9: [(&#39;16&#39;, 21072), (&#39;23&#39;, 20890), (&#39;04&#39;, 20833), (&#39;22&#39;, 20991), (&#39;06&#39;, 21019), (&#39;13&#39;, 20994), (&#39;20&#39;, 20801), (&#39;15&#39;, 20980), (&#39;03&#39;, 21000), (&#39;09&#39;, 20979), (&#39;12&#39;, 20895), (&#39;02&#39;, 20982), (&#39;00&#39;, 20912), (&#39;18&#39;, 20876), (&#39;10&#39;, 20844), (&#39;14&#39;, 20938), (&#39;01&#39;, 21020), (&#39;11&#39;, 21161), (&#39;05&#39;, 20865), (&#39;07&#39;, 20887), (&#39;17&#39;, 21056), (&#39;19&#39;, 20908), (&#39;08&#39;, 21074), (&#39;21&#39;, 20811)]
+Query 10: PythonRDD[613] at RDD at PythonRDD.scala:53
+</code></pre>
+</div>
+</div>
+<section
+id="task-3---lsep-legal-social-ethical-and-professional-considerations-5-marks"
+class="cell markdown" id="wHft1Jht1Qxl">
+<h1><strong>Task 3 - LSEP (legal, social, ethical, and professional)
+considerations [5 marks]</strong></h1>
+<hr />
+</section>
+<div class="cell markdown" id="5liua9g8p8Ny">
+<p>For all analyses performed, critically analyze the legal, social,
+ethical, and professional implications associated with the data and the
+analysis. Consider factors such as
+<code>data privacy</code>,<code>data protection</code>,
+<code>bias</code>, <code>fairness</code>, <code>transparency</code>, and
+the <code>potential impact</code> of the analysis on individuals or
+society as a whole.</p>
+<p><strong>Each student should take one of these factors as their
+contribution.</strong></p>
+<p>As a team, discuss and share your individual analyses and LSEP
+considerations with each other. Learn from each other's perspectives and
+insights.</p>
+</div>
+<div class="cell markdown" id="8_0x6oJlqzVA">
+<h2 id="student-1-chosen-factor">Student 1: chosen factor</h2>
+<p><em>discussion</em></p>
+<h2 id="student-2-chosen-factor">Student 2: chosen factor</h2>
+<p><em>discussion</em></p>
+<h2 id="student-3-chosen-factor">Student 3: chosen factor</h2>
+<p><em>discussion</em></p>
+<h2 id="student-4-chosen-factor">Student 4: chosen factor</h2>
+<p><em>discussion</em></p>
+</div>
+<div class="cell code" data-execution_count="78"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="l39Ypm32a0bU" data-outputId="968e550b-161d-4475-f958-dc07caac7964">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> functions <span class="im">as</span> F</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> sha2</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a Spark session</span></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> SparkSession.builder.appName(<span class="st">&quot;WebLogAnalysis&quot;</span>).getOrCreate()</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming &#39;web_log_df&#39; is your DataFrame</span></span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Anonymize the &#39;ip_address&#39; column using sha2</span></span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>web_log_df <span class="op">=</span> web_log_df.withColumn(<span class="st">&#39;ip_address&#39;</span>, F.sha2(<span class="st">&#39;ip_address&#39;</span>, <span class="dv">256</span>))</span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the first few rows of the DataFrame</span></span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>web_log_df.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>+--------------------+--------------------+--------------------+-----------+----------+
+|          ip_address|           timestamp|             request|status_code|bytes_sent|
++--------------------+--------------------+--------------------+-----------+----------+
+|ecb86d3e4a7b77d0a...|[04/Mar/2022:14:1...|  /history/missions/|  HTTP/2.0&quot;|       414|
+|9dcc436e2a109702e...|[02/Sep/2022:15:1...| /security/firewall/| HTTPS/1.0&quot;|       203|
+|c5f7da76e80ecd4aa...|[19/Jul/2022:01:3...|/web-development/...|  HTTP/1.0&quot;|       201|
+|97e12c3e576d71893...|[08/Feb/2022:11:3...|/networking/techn...|  HTTP/1.0&quot;|       415|
+|9df0073041cee14d3...|[29/Aug/2023:03:0...| /security/firewall/|  HTTP/2.0&quot;|       205|
+|28f6ebd4b5dd11196...|[22/May/2023:09:4...|/web-development/...|  HTTP/1.0&quot;|       200|
+|b5d2333ec3111b529...|[22/Jan/2023:09:5...|    /history/apollo/|  HTTP/2.0&quot;|       204|
+|6ea4e1550f101b498...|[28/Mar/2022:05:3...| /history/apollo-11/| HTTPS/1.0&quot;|       414|
+|ab94ce18c4a9eb9d6...|[25/Feb/2023:12:0...|/data-analysis/mi...|  HTTP/1.0&quot;|       204|
+|7e1e3394cf52b3ad6...|[22/Dec/2022:12:5...|    /history/launch/|  HTTP/2.0&quot;|       200|
+|4d6f0e3e7c8f0c5a0...|[13/Oct/2023:07:2...|/security/apollo-11/|  HTTP/1.0&quot;|       404|
+|1357ff131c7ed751d...|[26/Oct/2023:17:1...|/data-analysis/mi...| HTTPS/1.0&quot;|       307|
+|2f8a25d14a8e08b35...|[15/Aug/2022:15:5...|/web-development/...|  HTTP/2.0&quot;|       203|
+|835337664ffbaf3b5...|[08/Oct/2023:07:0...|      /shuttle/data/| HTTPS/1.0&quot;|       201|
+|a6a9819e70d3cdd91...|[22/Jun/2022:19:1...|/security/deep-le...| HTTPS/1.0&quot;|       500|
+|69b3630317de056ba...|[24/Oct/2023:01:5...|/shuttle/cybersec...|  HTTP/1.0&quot;|       416|
+|beeecb6db4be1bd76...|[14/Oct/2022:11:4...|/security/deep-le...|  HTTP/2.0&quot;|       500|
+|1d53b2aed5823c4be...|[25/Jan/2023:02:4...|/images/frontend-...|  HTTP/2.0&quot;|       308|
+|bd6a802fda44c76a3...|[30/Aug/2022:08:0...|/software/apollo-11/|  HTTP/2.0&quot;|       304|
+|a65484e611218fa20...|[26/Jun/2022:16:4...| /networking/launch/|  HTTP/1.0&quot;|       205|
++--------------------+--------------------+--------------------+-----------+----------+
+only showing top 20 rows
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="79" id="KST_IPHebz8N">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Anonymizing user data</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>web_log_df <span class="op">=</span> web_log_df.withColumn(<span class="st">&#39;ip_address&#39;</span>, sha2(<span class="st">&#39;ip_address&#39;</span>, <span class="dv">256</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="82" id="Po7SJRfjbaCr">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql.functions <span class="im">import</span> when</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="83" id="p2izKLulb2oI">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Applying fairness-aware techniques</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>web_log_df <span class="op">=</span> web_log_df.withColumn(<span class="st">&#39;request_count&#39;</span>, when(web_log_df[<span class="st">&#39;status_code&#39;</span>] <span class="op">==</span> <span class="st">&#39;404&#39;</span>, <span class="dv">1</span>).otherwise(<span class="dv">0</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="84"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="0EAicr1zb5iM" data-outputId="f0f0e26f-6d4f-40de-a5b0-848914692fb8">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Communicating data usage to users</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;We use your data to improve our services. You can manage your privacy settings in the user dashboard.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>We use your data to improve our services. You can manage your privacy settings in the user dashboard.
+</code></pre>
+</div>
+</div>
+<section id="convert-ipynb-to-html-for-turnitin-submission-5-marks"
+class="cell markdown" id="mIM6uLApSxi2">
+<h1><strong>Convert ipynb to HTML for Turnitin submission [5
+marks]</strong></h1>
+<hr />
+</section>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ZrQu11N_DCfZ" data-outputId="9b51d822-10d6-4275-a6f4-9a9e7b0e8a31">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install nbconvert</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="co">#!pip3 install nbconvert</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="co"># convert ipynb to html</span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="co"># file name: &quot;Your_Group_ID_CN7031.ipynb</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>jupyter nbconvert <span class="op">--</span>to html Your_Group_ID_CN7031.ipynb</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[NbConvertApp] WARNING | pattern &#39;Your_Group_ID_CN7031.ipynb&#39; matched no files
+This application is used to convert notebook files (*.ipynb)
+        to various other formats.
+
+        WARNING: THE COMMANDLINE INTERFACE MAY CHANGE IN FUTURE RELEASES.
+
+Options
+=======
+The options below are convenience aliases to configurable class-options,
+as listed in the &quot;Equivalent to&quot; description-line of the aliases.
+To see all configurable class-options for some &lt;cmd&gt;, use:
+    &lt;cmd&gt; --help-all
+
+--debug
+    set log level to logging.DEBUG (maximize logging output)
+    Equivalent to: [--Application.log_level=10]
+--show-config
+    Show the application&#39;s configuration (human-readable format)
+    Equivalent to: [--Application.show_config=True]
+--show-config-json
+    Show the application&#39;s configuration (json format)
+    Equivalent to: [--Application.show_config_json=True]
+--generate-config
+    generate default config file
+    Equivalent to: [--JupyterApp.generate_config=True]
+-y
+    Answer yes to any questions instead of prompting.
+    Equivalent to: [--JupyterApp.answer_yes=True]
+--execute
+    Execute the notebook prior to export.
+    Equivalent to: [--ExecutePreprocessor.enabled=True]
+--allow-errors
+    Continue notebook execution even if one of the cells throws an error and include the error message in the cell output (the default behaviour is to abort conversion). This flag is only relevant if &#39;--execute&#39; was specified, too.
+    Equivalent to: [--ExecutePreprocessor.allow_errors=True]
+--stdin
+    read a single notebook file from stdin. Write the resulting notebook with default basename &#39;notebook.*&#39;
+    Equivalent to: [--NbConvertApp.from_stdin=True]
+--stdout
+    Write notebook output to stdout instead of files.
+    Equivalent to: [--NbConvertApp.writer_class=StdoutWriter]
+--inplace
+    Run nbconvert in place, overwriting the existing notebook (only
+            relevant when converting to notebook format)
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory=]
+--clear-output
+    Clear output of current file and save in place,
+            overwriting the existing notebook.
+    Equivalent to: [--NbConvertApp.use_output_suffix=False --NbConvertApp.export_format=notebook --FilesWriter.build_directory= --ClearOutputPreprocessor.enabled=True]
+--no-prompt
+    Exclude input and output prompts from converted document.
+    Equivalent to: [--TemplateExporter.exclude_input_prompt=True --TemplateExporter.exclude_output_prompt=True]
+--no-input
+    Exclude input cells and output prompts from converted document.
+            This mode is ideal for generating code-free reports.
+    Equivalent to: [--TemplateExporter.exclude_output_prompt=True --TemplateExporter.exclude_input=True --TemplateExporter.exclude_input_prompt=True]
+--allow-chromium-download
+    Whether to allow downloading chromium if no suitable version is found on the system.
+    Equivalent to: [--WebPDFExporter.allow_chromium_download=True]
+--disable-chromium-sandbox
+    Disable chromium security sandbox when converting to PDF..
+    Equivalent to: [--WebPDFExporter.disable_sandbox=True]
+--show-input
+    Shows code input. This flag is only useful for dejavu users.
+    Equivalent to: [--TemplateExporter.exclude_input=False]
+--embed-images
+    Embed the images as base64 dataurls in the output. This flag is only useful for the HTML/WebPDF/Slides exports.
+    Equivalent to: [--HTMLExporter.embed_images=True]
+--sanitize-html
+    Whether the HTML in Markdown cells and cell outputs should be sanitized..
+    Equivalent to: [--HTMLExporter.sanitize_html=True]
+--log-level=&lt;Enum&gt;
+    Set the log level by value or name.
+    Choices: any of [0, 10, 20, 30, 40, 50, &#39;DEBUG&#39;, &#39;INFO&#39;, &#39;WARN&#39;, &#39;ERROR&#39;, &#39;CRITICAL&#39;]
+    Default: 30
+    Equivalent to: [--Application.log_level]
+--config=&lt;Unicode&gt;
+    Full path of a config file.
+    Default: &#39;&#39;
+    Equivalent to: [--JupyterApp.config_file]
+--to=&lt;Unicode&gt;
+    The export format to be used, either one of the built-in formats
+            [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;, &#39;webpdf&#39;]
+            or a dotted object name that represents the import path for an
+            ``Exporter`` class
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.export_format]
+--template=&lt;Unicode&gt;
+    Name of the template to use
+    Default: &#39;&#39;
+    Equivalent to: [--TemplateExporter.template_name]
+--template-file=&lt;Unicode&gt;
+    Name of the template file to use
+    Default: None
+    Equivalent to: [--TemplateExporter.template_file]
+--theme=&lt;Unicode&gt;
+    Template specific theme(e.g. the name of a JupyterLab CSS theme distributed
+    as prebuilt extension for the lab template)
+    Default: &#39;light&#39;
+    Equivalent to: [--HTMLExporter.theme]
+--sanitize_html=&lt;Bool&gt;
+    Whether the HTML in Markdown cells and cell outputs should be sanitized.This
+    should be set to True by nbviewer or similar tools.
+    Default: False
+    Equivalent to: [--HTMLExporter.sanitize_html]
+--writer=&lt;DottedObjectName&gt;
+    Writer class used to write the
+                                        results of the conversion
+    Default: &#39;FilesWriter&#39;
+    Equivalent to: [--NbConvertApp.writer_class]
+--post=&lt;DottedOrNone&gt;
+    PostProcessor class used to write the
+                                        results of the conversion
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.postprocessor_class]
+--output=&lt;Unicode&gt;
+    overwrite base name use for output files.
+                can only be used when converting one notebook at a time.
+    Default: &#39;&#39;
+    Equivalent to: [--NbConvertApp.output_base]
+--output-dir=&lt;Unicode&gt;
+    Directory to write output(s) to. Defaults
+                                  to output to the directory of each notebook. To recover
+                                  previous default behaviour (outputting to the current
+                                  working directory) use . as the flag value.
+    Default: &#39;&#39;
+    Equivalent to: [--FilesWriter.build_directory]
+--reveal-prefix=&lt;Unicode&gt;
+    The URL prefix for reveal.js (version 3.x).
+            This defaults to the reveal CDN, but can be any url pointing to a copy
+            of reveal.js.
+            For speaker notes to work, this must be a relative path to a local
+            copy of reveal.js: e.g., &quot;reveal.js&quot;.
+            If a relative path is given, it must be a subdirectory of the
+            current directory (from which the server is run).
+            See the usage documentation
+            (https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow)
+            for more details.
+    Default: &#39;&#39;
+    Equivalent to: [--SlidesExporter.reveal_url_prefix]
+--nbformat=&lt;Enum&gt;
+    The nbformat version to write.
+            Use this to downgrade notebooks.
+    Choices: any of [1, 2, 3, 4]
+    Default: 4
+    Equivalent to: [--NotebookExporter.nbformat_version]
+
+Examples
+--------
+
+    The simplest way to use nbconvert is
+
+            &gt; jupyter nbconvert mynotebook.ipynb --to html
+
+            Options include [&#39;asciidoc&#39;, &#39;custom&#39;, &#39;html&#39;, &#39;latex&#39;, &#39;markdown&#39;, &#39;notebook&#39;, &#39;pdf&#39;, &#39;python&#39;, &#39;rst&#39;, &#39;script&#39;, &#39;slides&#39;, &#39;webpdf&#39;].
+
+            &gt; jupyter nbconvert --to latex mynotebook.ipynb
+
+            Both HTML and LaTeX support multiple output templates. LaTeX includes
+            &#39;base&#39;, &#39;article&#39; and &#39;report&#39;.  HTML includes &#39;basic&#39;, &#39;lab&#39; and
+            &#39;classic&#39;. You can specify the flavor of the format used.
+
+            &gt; jupyter nbconvert --to html --template lab mynotebook.ipynb
+
+            You can also pipe the output to stdout, rather than a file
+
+            &gt; jupyter nbconvert mynotebook.ipynb --stdout
+
+            PDF is generated via latex
+
+            &gt; jupyter nbconvert mynotebook.ipynb --to pdf
+
+            You can get (and serve) a Reveal.js-powered slideshow
+
+            &gt; jupyter nbconvert myslides.ipynb --to slides --post serve
+
+            Multiple notebooks can be given at the command line in a couple of
+            different ways:
+
+            &gt; jupyter nbconvert notebook*.ipynb
+            &gt; jupyter nbconvert notebook1.ipynb notebook2.ipynb
+
+            or you can specify the notebooks list in a config file, containing::
+
+                c.NbConvertApp.notebooks = [&quot;my_notebook.ipynb&quot;]
+
+            &gt; jupyter nbconvert --config mycfg.py
+
+To see all available configurables, use `--help-all`.
+
+</code></pre>
+</div>
+</div>
+</body>
+</html>
